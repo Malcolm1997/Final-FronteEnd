@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    color: #242E52;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+main , header {
+    width: 75%;
+    margin:5% 12.5%; 
+}
+
+p{
+    color:#B3B2B7;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 100%;
+}
+
+.navBar {
+    width: 50%;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.navMenu li {
+    list-style: none;
+    padding: 0 2.5%;
+}
+
+.btnGetStarted{
+    border-radius: 50px;
+    background-color: #F3603B;
+    color: white;
+    padding:1% 2.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkMenu:hover{
+    color: #242E5280;
+}
+
+.btnGetStarted:hover{
+    background-color: #F3603Bb3;
+}
+
+.seccionTop{
+    display: flex;
+}
+
+.mainIntro{
+    display: flex;
+    flex-direction: column;
+    padding: 7.5% 13.5% 7.5% 0;
+    justify-content: space-around;
+}
+h1{
+    font-size: 2.5em;
+}
+
+.mainIntro button{
+    padding: 3% 7%;
+}
+
+.secctionFeatures{
+    display: flex;
+    width: 100%;
+    padding: 10% 0;
+}
+
+.sectionFeaturesLeft{
+    width: 100%;
+    margin-top:5%;
+}
+
+.sectionFeaturesLeft h2{
+    font-size: 2.25em;
+}
+
+.sectionFeaturesLeft p{
+    padding-top: 7%;
+    padding-right: 35%;
+}
+
+.sectionFeaturesRight{
+    width: 100%;
+}
+
+.sectionFeaturesRight section{
+    margin: 6% 0;
+}
+
+.sectionFeaturesRight h4{
+    padding: 5% 0;
+}
+
+.sectionFeaturesRight p{
+    padding-left: 17%;
+    line-height: 160%;
+}
+
+span{
+    background-color:#F3603B;
+    ;
+    padding:2% 5%;
+    margin-right: 3%;
+    border-radius: 50px;
+    color: white;
+}
+
+.sectionOpinion{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.personOpinion{
+    display: flex;
+    align-items: center;
+}
+
+.personOpinion section{
+    text-align: center;
+    padding:5 3% 
+
+}
+
+.conteinerImg{
+    margin-top:15%
+}
+
+.personSeparated{
+    padding: 3% 0;
+}
+
+.sectionOpinion button{
+    margin-top:4%
+}
+
+.seccionBotton{
+    background-color:#F3613C;
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+    padding:  5% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-size:auto;
+    margin-top: 15%;
+}
+
+.seccionBotton h2{
+    font-size: 2em;
+    color: white;
+    width:50%;
+    padding:0 5%;
+}
+
+#btnWhite{
+    background-color:white;
+    color: #F3613C;
+    ;
+    padding: 0 5%;
+    margin:1.25% 0% 1.25%
+}
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 4% 0;
+}
+
+.seccionRedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seccionRedes div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.linkContact{
+    list-style-type: none;
+    padding-bottom:15px;    
+}
+
+.linkContact a{
+    color: white;
+    
+}
