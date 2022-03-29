@@ -1,0 +1,43 @@
+Subject,Body,Attachment,Author,Created At,Updated At
+Puerto 68,"Usado en la parte del cliente
+","",Anonymous,2022-03-28 23:18:13 UTC,2022-03-28 23:22:18 UTC
+Puerto 67,"Este puerto se usa del lado del servidor
+","",Anonymous,2022-03-28 23:17:35 UTC,2022-03-28 23:22:21 UTC
+Puerto 23:,"provee un servicio poco fidedigno y datagramas pueden llegar en duplicado, descompuestos o perdidos sin aviso.
+","",Anonymous,2022-03-28 23:11:27 UTC,2022-03-28 23:22:24 UTC
+Puerto 8080:,"es el puerto alternativo al puerto 80 TCP para servidores web. Normalmente se utiliza este puerto en pruebas.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:29 UTC
+Puerto 995:,"Sirve para los gestores de correo electrónico establezcan conexión segura con el protocolo POP3 SSL. 
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:18:59 UTC
+Puerto 587:,"se usa para enviar los emails de forma segura y garantizar que llegan a su destino
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:18:41 UTC
+Puerto 443:,"este puerto es también para la navegación web, pero en este caso usa el protocolo HTTPS, que es seguro y utiliza el protocolo TLS por debajo.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:13 UTC
+Puerto 143:,"Lo usa el protocolo IMAP que es también usado por los gestores de correo electrónico.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:18:53 UTC
+Puerto 110:,"Este puerto lo usan los gestores de correo electrónico para establecer conexión con el protocolo POP3.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:18:49 UTC
+Puerto 80:,"este puerto es el que se usa para la navegación web de forma no segura (HTTP).
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:10 UTC
+Puerto 53:,"Es usado por el servicio de DNS (Domain Name System).
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:14 UTC
+Puerto 25:," el puerto 25 es usado por el protocolo SMTP para el envío de correos electrónicos. Este protocolo también puede usar los puertos 26 y 2525.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:18:46 UTC
+Puerto 23:,"TCP puerto 23 garantiza la entrega de paquetes de datos en la misma orden, en que fueron mandados.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:28 UTC
+Puerto 22:,"Se usa para conexiones seguras SSH y SFTP, siempre que no hayamos cambiado el puerto de escucha de nuestro servidor SSH.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:16 UTC
+Puerto 21:,"El puerto 21 por norma general se usa para las conexiones a servidores FTP en su canal de control, siempre que no hayamos cambiado el puerto de escucha de nuestro servidor FTP o FTPES.
+","",Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:22:12 UTC
+SMTP,"",https://miracomosehace.com/wp-content/uploads/2020/05/Persona-enviar-recibir-correos-servidor-SMTP.jpg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:30 UTC
+IP,"",https://snaxter.files.wordpress.com/2017/09/unnamed.png?w=300,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:14 UTC
+TCP,"",https://padlet-uploads.storage.googleapis.com/315422260/b191b1dcd8413aae70191b86d07c51d2/protocolo_tcp.png,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:18 UTC
+IMAP,"",https://www.profesionalreview.com/wp-content/uploads/2016/06/IMAP0.png,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:41 UTC
+POP3,"",https://genuinocloud.com/wp-content/uploads/2020/12/ipeqeld1.png,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:56 UTC
+HTTPS,"",https://interpolados.files.wordpress.com/2016/12/content-https-2x.jpg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:08:39 UTC
+HTTP,"",https://concepto.de/wp-content/uploads/2018/02/http-min-e1518718001273.jpg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:08:41 UTC
+DHCP,"",https://padlet-uploads.storage.googleapis.com/315422260/216e2cf3fbed18df1360fe9a6ce007b4/WhatsApp_Image_2021_04_21_at_12_21_24.jpeg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:09:37 UTC
+SSH,"",https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/09/encriptacion-simetrica-tutorial-ssh.jpg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:10:28 UTC
+UDP,"",https://padlet-uploads.storage.googleapis.com/315422260/9f39cee8de690b7ccced32f3f3f4e139/WhatsApp_Image_2021_04_19_at_16_24_04.jpeg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:09:41 UTC
+DNS,"",https://padlet-uploads.storage.googleapis.com/315422260/61037e00d93861556c4f3539cdf718de/image.png,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:09:05 UTC
+FTP,"",https://www.redeszone.net/app/uploads-redeszone.net/2019/10/protocolo-ftp.jpg,Digital House (PedagogiaDH),2022-03-28 21:53:06 UTC,2022-03-28 23:06:07 UTC
