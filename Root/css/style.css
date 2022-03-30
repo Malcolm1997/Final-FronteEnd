@@ -6,12 +6,27 @@
     padding:0;
 }
 
+body{
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-size:150%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 main , header {
     width: 75%;
     margin:5% 12.5%; 
 }
 
+.notDisplay{
+    display: none;
+}
+
 p{
+    font-weight: 500;
+}
+
+.textGris{
     color:#B3B2B7;
 }
 
@@ -49,6 +64,7 @@ header img {
     background-color: #F3603B;
     color: white;
     padding:1% 2.5%;
+    font-weight: 500;
 }
 
 a{
@@ -135,12 +151,14 @@ span{
 .personOpinion{
     display: flex;
     padding:  10% 0 5%;
+    margin: 0 5%;
 }
 
 .personOpinion section{
-    background-color:rgb(243, 243, 243);
+    background-color: #FAFAFA;
     display: flex;
-    padding:5% .45% 0;
+    font-weight: 500;
+    padding:5% 0 2%;
     flex-direction: column;
     align-items:center;
     position: relative;
@@ -204,6 +222,12 @@ footer{
     display: flex;
     justify-content: space-between;
     width:105%;
+}
+
+.secondMenu{
+    display: flex;
+    justify-content:space-around;
+    width:33%;
 }
 
 .linkContact{
@@ -271,10 +295,59 @@ h6{
     
     main , header {
         width: 95%;
-        margin: 5%;
+        margin: 10% 5%;
     }
 
-    
+    p{
+        color:#B3B2B7 ;
+    }
+    header{
+        position: relative;
+        align-items: flex-start;
+        
+    }
+
+    .notDisplay{
+        display: block;
+    }
+    .menuDesplegable{
+        position: absolute !important;
+        right: 5%;
+        width: 30px;
+        height: 30px;
+        top: 0;
+    }
+
+    #menu{
+        position: absolute !important;
+        right: 5%;
+        z-index:1;
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+        top: 0;
+    }
+
+    #menu:not(:checked) ~ .navBar  {
+        display:none;
+    }
+
+    #menu:checked ~ .menuHamburguesa{
+        display: none;
+    }
+
+    #menu:not(:checked) ~ .menuClose{
+        display: none;
+    }
+
+    .navMenu{
+        flex-direction: column;
+
+    }
+
+    .navMenu li{
+        padding-bottom: 8%;
+    }
 
     .seccionTop{   
         flex-direction: column-reverse;
@@ -313,39 +386,139 @@ h6{
         line-height: 2em;
         font-size: 90%;
     }
+
+    span{
+        padding: 3% 6%;
+    }
     
     .sectionFeaturesRight h4{
         background-color:#f3613c1a;
         padding:2% 0;
         border-radius: 50px 0px 0px 50px;
     }
-
+    
     .sectionFeaturesRight p{
-        padding: 4% 0%;
+        padding: 4% 1% 4% 0%;
         line-height: 1.75em;
         font-size:90%;
     }
 
-    footer{
-        flex-direction: column;
-    }
-
-    .seccionRedes div{
-        justify-content: center;
-        width:100%;
-    }
-    .nonDisplay{
-        display: none !important;
-    }
-
     .personOpinion{
-        margin-top:25%
+        margin-top:15%
     }
     
     .personOpinion img{
         width: 50%;
         position: relative;
         left: 25%;
+        top:36px
+    }
+    .personOpinion section{
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .contentDisc{
+        width: 90%;
+        display: flex;
+        justify-content:center;
+        margin-bottom: 10%;
+    }
+
+    .disc{
+        width: 7px;
+        height: 7px;
+        border: #F3613C 1px solid;
+        margin: .5%;
+        border-radius: 50px;
+    }
+
+    .discSelected{
+        background-color: #F3613C;
+    }
+
+    .sectionOpinion button{
+        padding: 5% 10%;
+    }
+
+    .seccionBotton{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccionBotton h2{
+        width:100%;
+        text-align: center;
+        line-height:1.5em;
+        font-weight: 500;
+        padding: 30% 5% 5%;
+    }
+
+    .btnGetStarted{
+        font-weight: 700;
+    }
+
+    #btnWhite{
+        width:50%;
+        padding: 5%;
+        margin-bottom: 30% ;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    footer section{
+        width:90% !important;
+        margin: 5%;
+    }
+
+    .seccionRedesImg{
+        padding: 10%;
+    }
+
+    .seccionRedes{
+        flex-direction: column-reverse
+    }
+
+    .seccionRedesImg{
+        width: 70%;
+        margin: 0 15% 8% 15%;
+    }
+
+    .seccionRedes div{
+        width:80%;
+        margin: 10%;
+    }
+
+    .linkContact{
+        padding-bottom:20px;
+    }
+
+    .linkContact a{
+        color:#B3B2B7;
+
+    }
+
+    .nonDisplay{
+        display: none !important;
+    }
+
+    #email{
+        width: 75%;
+    }
+
+    .btnSendForm{
+        margin-left: 2%;
+        width: 25%;
+    }
+
+    .derechos{
+        position: relative;
+        top: 50vh;
+        justify-content:center;
+        color: rgba(179, 178, 183, .5);
+        font-weight: 500;
     }
   }
   
